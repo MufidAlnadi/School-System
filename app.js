@@ -29,8 +29,5 @@ myForm.addEventListener("submit", function(event) {
     grade.innerHTML = formData.get('grade');
     table.appendChild(grade);
 
-   
 
-
- 
 });
