@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Horizon school </title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ℌ𝔬𝔯𝔦𝔷𝔬𝔫 School</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#" >Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" >Join US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" >Contact US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="p-5 text-center bg-image imge" style="
+      background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20210910/pngtree-real-shots-of-female-students-studying-hard-image_845188.jpg');
+      height: 400px;
+    ">
+    <div class="mask bg-transparent" >
+        <div class="d-flex align-items-center h-100">
+          <div class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-light p-4"><span>Welcome  </span> <span> To </span> <span> ℌ𝔬𝔯𝔦𝔷𝔬𝔫 School</span></h1>                </div>
+            </div>
+      
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <h4 class="mb-3">we are dedicated to providing a top-quality education to our students in a safe and supportive environment. Our experienced and passionate teachers work tirelessly to help students reach their full potential, both academically and personally. We believe in a well-rounded education that includes not only rigorous academic coursework but also opportunities for personal growth, creativity, and community involvement. With a wide range of programs and activities availabl.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</header>
+<main>
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3"></h1>
+            <p class="col-lg-10 fs-4"> We're excited that you're interested in joining our community. By creating an account, you'll have access to a variety of resources, including our course offerings, event calendar, and student portal. Signing up is easy - simply provide us with your basic information, such as your name and email address, and create a unique username and password. Once you're signed up, you'll receive regular updates from our school about news, events, and opportunities to get involved. We're committed to providing our students with an enriching and supportive learning environment, and we look forward to having you join us!</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light" id="ffrom">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control " placeholder="name" name = "FullName">
+                <label for="floatingInput">Full Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="date" class="form-control"  placeholder="date" name = "date">
+                <label for="floatingInput">Date of Birth</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" placeholder="Phone" name= "gender">
+                <label for="floatingInput">Gender</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" placeholder="Phone" name= "Phone">
+                <label for="floatingInput">Phone Number</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control"  placeholder="grade" name="grade">
+                <label for="floatingInput">Grade</label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
+              <hr class="my-4">
+              <small class="text-muted">By clicking Submit, you agree to the terms of use.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center text-center ">
+      <table class="table table-striped table-hover"  >
+        <thead>
+          <tr>
+            <th>Full Name</th>
+            <th>Date of Birth</th>
+            <th>Gender</th>
+            <th>Phone Number</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody id="table" >
+         
+        </tbody>
+        </table>
+      </div>
+    </main>
+
+
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>ℌ𝔬𝔯𝔦𝔷𝔬𝔫 School
+            </h6>
+            <p>
+                We are a leading school that provides high-quality education to students. Our mission is to empower students to achieve their full potential and become responsible citizens of the world.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                Services
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Academic Programs</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Counseling </a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Library</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Special Education</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Career Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Technology Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Food Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Transportation Services</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              info@Horizon.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="#">HorizonAcademy.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
